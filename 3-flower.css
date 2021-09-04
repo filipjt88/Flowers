@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+button {
+    padding: 10px 45px;
+    font-size: 1rem;
+    background: hotpink;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/********HEADER************/
+
+.header-image {
+    background: url(header-flowers.jpg);
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    margin-top: 30px;
+    padding-left: 220px;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+article {
+    padding: 200px;
+}
+
+article button {
+    margin-top: 20px;
+    margin-left: 42%;
+}
+
+article h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: hotpink;
+}
+
+article p {
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.content {
+    text-align: center;
+    padding: 100px;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    color: hotpink;
+}
+
+.content h4 {
+    padding-top: 10px;
+}
+
+.content p {
+    padding-top: 30px;
+    line-height: 1.6;
+}
+
+.content button {
+    margin-top: 30px;
+}
+
+/********END OF HEADER************/
+
+
+/********MENU************/
+
+.menu {
+    background: pink;
+    padding-top: 40px;
+    height: 750px;
+}
+.menu-picture {
+    background: url(flower-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 60%;
+    margin: auto;
+}
+
+
+
+.menu h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.menu h4 {
+    text-align: center;
+}
+
+aside button {
+   position: relative;
+    top: 30px;
+    left: 42%;
+    background: white;
+}
+
+aside h2 {
+    padding: 10px;
+}
+
+aside h4 {
+    padding: 10px
+}
+
+aside p {
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    line-height: 1.6;
+}
+
+/********END OF MENU************/
+
+
+/********CLIENT************/
+
+.client h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 40px;
+}
+
+.client h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.client p {
+    width: 60%;
+    margin-top: 40px;
+    border: 2px dashed gray;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    left: 20%;
+    line-height: 1.5;
+}
+
+
+/********END OF CLIENT************/
+
+
+/********FOOTER************/
+
+.container footer {
+    margin-top: 30px;
+    padding: 30px;
+    background: gray;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+}
+
+/********END OF FOOTER************/
+
+
